@@ -18,3 +18,6 @@ git branch ## Displays the project branches
 git branch new-branch ## Creates a branch called new-branch
 git branch - new-branch ## Deletes the branch called new-branch
 git checkout work-relayout ## switches to the branch called work-relayout
+git checkout master ## Switch to the master branch
+git merge work-relayout ## Merges the branch work-relayout to the current branch
+
