@@ -1,0 +1,16 @@
+touch file.txt ## Create file or change the timestamp to the actual time
+
+git init ## Initialise GIT
+
+got add . ## Add all files to staging area
+
+git status ## Check status of staging area
+git status -s ## Concise status
+
+git diff file.css ## Lists differences for a file from working area to staging area
+git checkout ## Transfer files from staging area to working area (rollback)
+git commit ## Commit changes to git
+git commit -m "Commit comment" ## commit changes to git already adding comment
+git log ## Display commit logs
+git log --oneline ## Concise log
+
