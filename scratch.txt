@@ -20,4 +20,6 @@ git branch - new-branch ## Deletes the branch called new-branch
 git checkout work-relayout ## switches to the branch called work-relayout
 git checkout master ## Switch to the master branch
 git merge work-relayout ## Merges the branch work-relayout to the current branch
+git branch -d work-relayout ## Deletes the branch work-relyout
+
 
